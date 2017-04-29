@@ -1,0 +1,24 @@
+{
+  "name": "mightysignal",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.16.0",
+    "bootstrap": "^3.3.7",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "ejs": "~2.5.5",
+    "eonasdan-bootstrap-datetimepicker": "^4.17.47",
+    "express": "~4.14.1",
+    "jquery": "^3.2.1",
+    "moment": "^2.18.1",
+    "moment-timezone": "^0.4.1",
+    "mongodb": "^2.2.26",
+    "mongoose": "^4.9.5",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.2"
+  }
+}

@@ -1,0 +1,15 @@
+var mongoose  = require('mongoose');
+var schema = mongoose.Schema;
+
+var paymentSchema = mongoose.Schema({
+
+"name" : {type:String},
+"amount": {type:String},
+"date" : {type:String}
+
+});
+
+
+var Payment =  mongoose.model('Payment',paymentSchema);
+
+module.exports = Payment;
